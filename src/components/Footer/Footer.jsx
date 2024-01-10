@@ -23,10 +23,7 @@ const Footer = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-6 mt-4 sm:mt-0">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut nulla
-              error omnis ea nemo quisquam enim, aliquid hic corporis itaque
-              consequuntur reprehenderit, optio numquam amet ab tenetur aliquam
-              nisi eos?
+            Thank you for reading my introduction, looking forward to long-term cooperation with you
             </p>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
             <span className="text-gray-300 font-[600] text-[15px]">
@@ -40,22 +37,12 @@ const Footer = () => {
                 <FaYoutube size={30} />
               </a>
             </span>
-            <span>
-              <a
-                className="text-smallTextColor text-[18px] font-[600]"
-                href="#youtube"
-              >
-                <FaGithub size={30} />
-              </a>
-            </span>
-            <span>
-              <a
-                className="text-smallTextColor text-[18px] font-[600]"
-                href="#youtube"
-              >
-                <FaFacebookF size={30} />
-              </a>
-            </span>
+            <span >
+                    <a className="text-smallTextColor text-[18px] font-[600]" target="_blank" href="https://github.com/trannhon70/portfolio"><FaGithub size={30} /></a>
+                </span>
+                <span >
+                    <a className="text-smallTextColor text-[18px] font-[600]" target="_blank"  href="https://www.facebook.com/xuannhon.tran.7/"><FaFacebookF size={30}/></a>
+                </span>
             <span>
               <a
                 className="text-smallTextColor text-[18px] font-[600]"
@@ -75,9 +62,9 @@ const Footer = () => {
           <div  className="flex items-center justify-center sm:justify-between">
             <div className="hiden sm:block">
               <div className="flex items-center gap-[10px]">
-                <span className="w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center">M</span>
+                <span className="w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center">N</span>
                 <div className="leading-[20px]">
-                  <h2 className="text-gray-200 font-[500] text-[19px]">Muhid</h2>
+                  <h2 className="text-gray-200 font-[500] text-[19px]">Nhơn</h2>
                   <p className="text-gray-400 text-[14px] font-[500]">Personal</p>
                 </div>
               </div>

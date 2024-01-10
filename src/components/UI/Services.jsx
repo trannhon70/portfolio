@@ -38,9 +38,7 @@ const Services = () => {
                           Frontend Development
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-6">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Dolores, laboriosam harum ex maiores libero
-                          voluptas
+                        HTML, CSS, SCSS, Boostrap, JavaScript, React JS, React Native, Typescript, Material-UI, Andt, Redux, Nextjs, Tailwind css...
                         </p>
                       </div>
                     </div>
@@ -68,9 +66,7 @@ const Services = () => {
                           Backend Development
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-6">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Dolores, laboriosam harum ex maiores libero
-                          voluptas
+                        express, nodejs, Nestjs, MongoDB, MYSQL, PostgreSQL
                         </p>
                       </div>
                     </div>
@@ -94,12 +90,10 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
-                          UI/UX Design
+                          Git
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-6">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Dolores, laboriosam harum ex maiores libero
-                          voluptas
+                          github, gitlab, CI/CD, ...
                         </p>
                       </div>
                     </div>
@@ -127,9 +121,7 @@ const Services = () => {
                           Apps Development
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-6">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Dolores, laboriosam harum ex maiores libero
-                          voluptas
+                          React native
                         </p>
                       </div>
                     </div>
