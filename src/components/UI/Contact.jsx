@@ -23,7 +23,7 @@ const Contact = () => {
       return toast.warning('Email không được bỏ trống!')
     }
     if( validateEmail(form.email) === null){
-      return toast.success('Email không đúng định dạng!')
+      return toast.error('Email không đúng định dạng!')
     }
     const url = `${process.env.REACT_APP_BASE_API_URL}/api/portfolio/create`;
     const data = {
