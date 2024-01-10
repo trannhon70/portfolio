@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/trannhon70/portfolio/static/css/main.08dfe572.css",
+    "main.js": "/trannhon70/portfolio/static/js/main.724a8818.js",
+    "static/media/hero.svg": "/trannhon70/portfolio/static/media/hero.b0b7c9856498e344e2d04962fdc9fe67.svg",
+    "static/media/portfolio-06.jpg": "/trannhon70/portfolio/static/media/portfolio-06.ea07d96454b4d7036952.jpg",
+    "static/media/portfolio-03.jpg": "/trannhon70/portfolio/static/media/portfolio-03.78e7f47277db062e42ce.jpg",
+    "static/media/portfolio-05.jpg": "/trannhon70/portfolio/static/media/portfolio-05.48fc29908a42185ebcac.jpg",
+    "static/media/portfolio-04.jpg": "/trannhon70/portfolio/static/media/portfolio-04.b181b68b278c583999d7.jpg",
+    "static/media/portfolio-02.jpg": "/trannhon70/portfolio/static/media/portfolio-02.18f98e2c71da9c1289b0.jpg",
+    "static/media/portfolio-01.jpg": "/trannhon70/portfolio/static/media/portfolio-01.89a346463c90b2965a9e.jpg",
+    "static/media/portfolio-07.jpg": "/trannhon70/portfolio/static/media/portfolio-07.7e51d9d8fbe739866e5c.jpg",
+    "index.html": "/trannhon70/portfolio/index.html",
+    "main.08dfe572.css.map": "/trannhon70/portfolio/static/css/main.08dfe572.css.map",
+    "main.724a8818.js.map": "/trannhon70/portfolio/static/js/main.724a8818.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08dfe572.css",
+    "static/js/main.724a8818.js"
+  ]
+}
