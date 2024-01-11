@@ -1,7 +1,7 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
+import portfolioImg01 from "../images/blockchain.png";
+import portfolioImg02 from "../images/congdongseo.png";
 import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
+import portfolioImg04 from "../images/gofiber.png";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
 import portfolioImg07 from "../images/portfolio-07.jpg";
@@ -11,31 +11,31 @@ const portfolios = [
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Blockchain technology website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["React", "Tailwind css", "lavarel", "MYSQL", "MetaMask", "Ant"],
+    siteUrl: "https://stg.gain-voting.com/#/user/home",
   },
   {
     id: "02",
     imgUrl: portfolioImg04,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Web Design",
+    title: "Vps technology website",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["React", "Tailwind css", "Node.js", "MongoDB", "Socket"],
+    siteUrl: "https://gofiber.vn",
   },
   {
     id: "03",
     imgUrl: portfolioImg02,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
+    category: "Web Design",
+    title: "Sàn trao đổi, mua bán guest post, backlink, PBN, công cụ SEO",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    technologies: ["React", "Tailwind css", "Nestjs", "MongoDB"],
+    siteUrl: "https://congdongseo.com",
   },
   {
     id: "04",
