@@ -1,15 +1,18 @@
-import portfolioImg01 from "../images/blockchain.png";
-import portfolioImg02 from "../images/congdongseo.png";
+import portfolioImg01 from "../images/portfolio-01.jpg"
+import portfolioImg02 from "../images/portfolio-02.jpg";
 import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/gofiber.png";
+import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
 import portfolioImg06 from "../images/portfolio-06.jpg";
 import portfolioImg07 from "../images/portfolio-07.jpg";
+import blockchain from "../images/blockchain.png";
+import congdongseo from "../images/congdongseo.png";
+import gofiber from "../images/gofiber.png";
 
 const portfolios = [
   {
     id: "01",
-    imgUrl: portfolioImg01,
+    imgUrl: blockchain,
     category: "Web Design",
     title: "Blockchain technology website",
     description:
@@ -19,7 +22,7 @@ const portfolios = [
   },
   {
     id: "02",
-    imgUrl: portfolioImg04,
+    imgUrl: gofiber,
     category: "Web Design",
     title: "Vps technology website",
     description:
@@ -29,7 +32,7 @@ const portfolios = [
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
+    imgUrl: congdongseo,
     category: "Web Design",
     title: "Sàn trao đổi, mua bán guest post, backlink, PBN, công cụ SEO",
     description:
