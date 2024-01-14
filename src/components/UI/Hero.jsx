@@ -49,8 +49,10 @@ const Hero = () => {
                 className="flex gap-2 mt-12 text-headingColor font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10"
               >
                 <span className="mt-1"><RiApps2Line size={25} /></span>
-                Hello, I have more than 2 years of experience developing frontend websites and 1 year of experience developing backends. The technologies I use to develop websites are HTML, CSS, SCSS, Boostrap, JavaScript, React JS, React Native, Typescript, Nodejs, Github, Gitlab, Material-UI, Andt, Redux, Nextjs,MongoDB, SQL, MYSQL...
+                - Hello, I have more than 2 years of experience developing frontend websites and 1 year of experience developing backends. The technologies I use to develop websites are HTML, CSS, SCSS, Boostrap, JavaScript, React JS, React Native, Typescript, Nodejs, Github, Gitlab, Material-UI, Andt, Redux, Nextjs,MongoDB, SQL, MYSQL... <br/>
+                - Time management skills, logical thinking, Computer technical document reading skills.
               </p>
+              
               <div className="flex items-center gap-9 mt-14">
                 <span className="text-smallTextColor text-[15px] font-[600]">Follow me:</span>
                 <span >

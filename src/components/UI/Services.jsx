@@ -13,10 +13,7 @@ const Services = () => {
           </h2>
           <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            accusamus rerum deleniti perspiciatis assumenda sunt aliquam a,
-            doloremque voluptas harum nisi corporis id debitis unde inventore.
-            Dignissimos, eligendi! Fuga, recusandae!
+            With the experience I have accumulated in the corporate environment, I will be able to help you a lot in cooperation and development together.
           </p>
         </div>
         <div className="flex flex-col justify-center sm:py-12">
