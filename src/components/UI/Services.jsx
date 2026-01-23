@@ -35,7 +35,7 @@ const Services = () => {
                           Frontend Development
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-6">
-                        HTML, CSS, SCSS, Boostrap, JavaScript, React JS, React Native, Typescript, Material-UI, Andt, Redux, Nextjs, Tailwind css...
+                        HTML, CSS, SCSS, Boostrap,Php ,WordPress , JavaScript, React JS, React Native, Typescript, Material-UI, Andt, Redux, Nextjs, Tailwind css...
                         </p>
                       </div>
                     </div>
