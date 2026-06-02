@@ -7,7 +7,7 @@
         "contact": "Liên hệ",
         "projects": "Dự án"
     },
-    "about": {
+    "hero": {
         "title": "Sẵn sàng cho các cơ hội việc làm · TP. Hồ Chí Minh",
         "tag": "4+ năm xây dựng cho web app",
         "tag_1": "Chuyên xây dựng ứng dụng web hiệu suất cao với React, Next.js, Node.js, NestJS, PHP. Từ giao diện người dùng mượt mà đến hệ thống backend mạnh mẽ.",
@@ -16,5 +16,9 @@
         "tag_2": "năm kinh nghiệm",
         "tag_3": "dự án hoàn thành",
         "tag_4": "khách hàng"
+    },
+    "about": {
+        "title": "Tôi build những thứ",
+        "title_1": "thực sự hoạt động"
     }
 }

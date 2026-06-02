@@ -123,12 +123,12 @@ export default function HomePage() {
           <div className="about-grid">
             <div className="about-text reveal">
 
-              <h2 className="section-title">Tôi build những thứ<br /><span className="accent-text">thực sự hoạt động</span></h2>
+              <h2 className="section-title">{t("about.title")}<br /><span className="accent-text">{t("about.title_1")}</span></h2>
               <p>Là một <strong>Full Stack Developer</strong> với hơn 4 năm kinh nghiệm, tôi đam mê tạo ra những sản
                 phẩm web chất lượng cao — từ giao diện đẹp mắt đến hệ thống backend ổn định, có khả năng mở rộng.
               </p>
               <p>Tôi làm việc thoải mái ở cả frontend lẫn backend, thành thạo <strong>React / Next.js</strong>,
-                <strong>Node.js / Express</strong>, <strong>PHP / Laravel</strong>, và cơ sở dữ liệu SQL &amp; NoSQL.
+                <strong>Node.js / Express</strong>, <strong>PHP / Laravel</strong>, và cơ sở dữ liệu SQL & NoSQL.
               </p>
               <p>
                 Bên cạnh đó, tôi có kinh nghiệm về <strong>DevOps</strong>,

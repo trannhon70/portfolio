@@ -7,7 +7,7 @@
         "contact": "Contact",
         "projects": "Projects"
     },
-    "about": {
+    "hero": {
         "title": "Open to New Opportunities · Ho Chi Minh City ",
         "tag": "4+ Years Building Web Applications",
         "tag_1": "Specialized in building high-performance web applications using React, Next.js, Node.js, NestJS, and PHP. From seamless user interfaces to robust backend systems.",
@@ -16,5 +16,9 @@
         "tag_2": "Experience (Years)",
         "tag_3": "Projects Completed",
         "tag_4": "Clients"
+    },
+    "about": {
+        "title": "Building High-Quality",
+        "title_1": "Web Applications"
     }
 }
