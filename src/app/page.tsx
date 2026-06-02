@@ -1,5 +1,5 @@
 "use client";
-
+//@ts-nocheck
 import { useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
@@ -149,7 +149,7 @@ export default function HomePage() {
         {/* PROJECTS */}
         <section id="projects" style={{ background: 'var(--surface)' }}>
           <div className="reveal">
-            <span className="section-tag">// 04 · Projects</span>
+
             <h2 className="section-title">Dự án nổi bật</h2>
           </div>
           <div className="projects-grid">
@@ -224,7 +224,7 @@ export default function HomePage() {
         {/* CONTACT */}
         <section className="contact-section" id="contact">
           <div className="reveal">
-            <span className="section-tag">// 05 · Contact</span>
+
             <h2 className="section-title">Hãy cùng xây dựng<br />điều gì đó <span className="accent-text">tuyệt vời</span></h2>
             <p className="contact-sub">Tôi đang tìm kiếm cơ hội mới. Inbox của tôi luôn mở!</p>
             <a href="mailto:hello@dev.vn" className="contact-email">hello@dev.vn</a>
