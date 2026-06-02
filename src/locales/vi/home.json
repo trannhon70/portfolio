@@ -9,6 +9,12 @@
     },
     "about": {
         "title": "Sẵn sàng cho các cơ hội việc làm · TP. Hồ Chí Minh",
-        "description": "I am a passionate Full Stack Developer with experience in building web applications using React, Node.js, and MongoDB. I enjoy solving complex problems and continuously learning new technologies to enhance my skills."
+        "tag": "4+ năm xây dựng cho web app",
+        "tag_1": "Chuyên xây dựng ứng dụng web hiệu suất cao với React, Next.js, Node.js, NestJS, PHP. Từ giao diện người dùng mượt mà đến hệ thống backend mạnh mẽ.",
+        "button": "Xem dự án",
+        "button_1": "Liên hệ tôi",
+        "tag_2": "năm kinh nghiệm",
+        "tag_3": "dự án hoàn thành",
+        "tag_4": "khách hàng"
     }
 }

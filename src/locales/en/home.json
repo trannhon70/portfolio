@@ -9,6 +9,12 @@
     },
     "about": {
         "title": "Open to New Opportunities · Ho Chi Minh City ",
-        "description": "I am a passionate Full Stack Developer with experience in building web applications using React, Node.js, and MongoDB. I enjoy solving complex problems and continuously learning new technologies to enhance my skills."
+        "tag": "4+ Years Building Web Applications",
+        "tag_1": "Specialized in building high-performance web applications using React, Next.js, Node.js, NestJS, and PHP. From seamless user interfaces to robust backend systems.",
+        "button": "View Projects",
+        "button_1": "Let's Talk",
+        "tag_2": "Experience (Years)",
+        "tag_3": "Projects Completed",
+        "tag_4": "Clients"
     }
 }

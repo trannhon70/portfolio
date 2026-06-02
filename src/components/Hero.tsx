@@ -14,29 +14,28 @@ export default function Hero({ t }: HeroProps) {
                 <h1>
                     <span className="h1-line">Full Stack</span>
                     <span className="h1-line">Developer<span className="accent-text">.</span></span>
-                    <span className="h1-line" style={{ color: 'var(--muted)', fontSize: '0.55em', fontWeight: 400, fontFamily: '"Inter", sans-serif', letterSpacing: '0.01em' }}>4+ năm xây dựng cho web app</span>
+                    <span className="h1-line" style={{ color: 'var(--muted)', fontSize: '0.55em', fontWeight: 400, fontFamily: '"Inter", sans-serif', letterSpacing: '0.01em' }}>{t("about.tag")}</span>
                 </h1>
                 <p className="hero-sub">
-                    Chuyên xây dựng ứng dụng web hiệu suất cao với React, Next.js, Node.js, NestJS &amp; PHP.
-                    Từ giao diện người dùng mượt mà đến hệ thống backend mạnh mẽ.
+                    {t("about.tag_1")}
                 </p>
                 <div className="hero-cta">
-                    <a href="#projects" className="btn btn-primary">Xem dự án →</a>
-                    <a href="#contact" className="btn btn-ghost">Liên hệ tôi</a>
+                    <a href="#projects" className="btn btn-primary"> {t("about.button")} →</a>
+                    <a href="#contact" className="btn btn-ghost">{t("about.button_1")}</a>
                 </div>
             </div>
             <div className="hero-stats">
                 <div className="stat-item">
                     <span className="stat-num">4+</span>
-                    <span className="stat-label">Năm kinh nghiệm</span>
+                    <span className="stat-label">{t("about.tag_2")}</span>
                 </div>
                 <div className="stat-item">
                     <span className="stat-num">30+</span>
-                    <span className="stat-label">Dự án hoàn thành</span>
+                    <span className="stat-label">{t("about.tag_3")}</span>
                 </div>
                 <div className="stat-item">
                     <span className="stat-num">15+</span>
-                    <span className="stat-label">Khách hàng</span>
+                    <span className="stat-label">{t("about.tag_4")}</span>
                 </div>
             </div>
         </section>
