@@ -202,7 +202,7 @@ export default function HomePage() {
                 <div className="project-thumb-accent" />
                 <div className="project-thumb-inner">
                   SELECT * FROM orders<br />
-                  WHERE status = delivered<br />
+                  WHERE status = 'delivered'<br />
                   ORDER BY created_at DESC
                 </div>
               </div>
