@@ -1,15 +1,33 @@
-export default function Navbar() {
+import { useTranslation } from "react-i18next";
 
+export default function Navbar() {
+    const { t, i18n } = useTranslation();
 
     return (
         <nav>
-            <div className="nav-logo">TRẦN XUÂN NHƠN</div>
+            <div className="nav-logo">{t("navbar.full_name")}</div>
             <ul className="nav-links">
-                <li><a href="#about">Về tôi</a></li>
-                <li><a href="#skills">Kỹ năng</a></li>
-                <li><a href="#experience">Kinh nghiệm làm việc</a></li>
-                <li><a href="#projects">Dự án</a></li>
-                <li><a href="#contact">Liên hệ</a></li>
+                <li><a href="#about">{t("navbar.about_me")}</a></li>
+                <li><a href="#skills">{t("navbar.skills")}</a></li>
+                <li><a href="#experience">{t("navbar.experience")}</a></li>
+                <li><a href="#projects">{t("navbar.projects")}</a></li>
+                <li><a href="#contact">{t("navbar.contact")}</a></li>
+
+                <div className="lang-switcher">
+                    <button
+                        className={`lang-btn ${i18n.language === "vi" ? "active" : ""}`}
+                        onClick={() => i18n.changeLanguage("vi")}
+                    >
+                        VI
+                    </button>
+
+                    <button
+                        className={`lang-btn ${i18n.language === "en" ? "active" : ""}`}
+                        onClick={() => i18n.changeLanguage("en")}
+                    >
+                        EN
+                    </button>
+                </div>
             </ul>
         </nav>
     );

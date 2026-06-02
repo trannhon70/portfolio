@@ -1,0 +1,14 @@
+{
+    "navbar": {
+        "full_name": "TRẦN XUÂN NHƠN",
+        "about_me": "Về tôi",
+        "skills": "Kỹ năng",
+        "experience": "Kinh nghiệm làm việc",
+        "contact": "Liên hệ",
+        "projects": "Dự án"
+    },
+    "about": {
+        "title": "Sẵn sàng cho các cơ hội việc làm · TP. Hồ Chí Minh",
+        "description": "I am a passionate Full Stack Developer with experience in building web applications using React, Node.js, and MongoDB. I enjoy solving complex problems and continuously learning new technologies to enhance my skills."
+    }
+}

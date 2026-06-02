@@ -1,4 +1,7 @@
-export default function Hero() {
+interface HeroProps {
+    t: (key: string) => string;
+}
+export default function Hero({ t }: HeroProps) {
 
 
     return (
@@ -7,7 +10,7 @@ export default function Hero() {
             <div className="hero-glow" />
             <div className="hero-glow2" />
             <div className="hero-content">
-                <div className="hero-tag">Sẵn sàng cho các cơ hội việc làm · TP. Hồ Chí Minh</div>
+                <div className="hero-tag">{t("about.title")}</div>
                 <h1>
                     <span className="h1-line">Full Stack</span>
                     <span className="h1-line">Developer<span className="accent-text">.</span></span>

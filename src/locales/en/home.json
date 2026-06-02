@@ -1,0 +1,14 @@
+{
+    "navbar": {
+        "full_name": "XUAN NHON TRAN",
+        "about_me": "About me",
+        "skills": "Skills",
+        "experience": "Experience",
+        "contact": "Contact",
+        "projects": "Projects"
+    },
+    "about": {
+        "title": "Open to New Opportunities · Ho Chi Minh City ",
+        "description": "I am a passionate Full Stack Developer with experience in building web applications using React, Node.js, and MongoDB. I enjoy solving complex problems and continuously learning new technologies to enhance my skills."
+    }
+}

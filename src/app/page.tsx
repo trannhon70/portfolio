@@ -6,8 +6,11 @@ import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 const email = "kevintran351996@gmail.com";
+import "../i18n/i18n";
+import { useTranslation } from "react-i18next";
 
 export default function HomePage() {
+  const { t } = useTranslation();
   const cursorRef = useRef<HTMLDivElement>(null);
   const ringRef = useRef<HTMLDivElement>(null);
 
@@ -111,9 +114,10 @@ export default function HomePage() {
       <div>
         <div ref={cursorRef} className="cursor" id="cursor" />
         <div ref={ringRef} className="cursor-ring" id="cursorRing" />
+
         <Navbar />
         {/* HERO */}
-        <Hero />
+        <Hero t={t} />
         {/* ABOUT */}
         <section id="about">
           <div className="about-grid">
