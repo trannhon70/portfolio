@@ -124,19 +124,10 @@ export default function HomePage() {
             <div className="about-text reveal">
 
               <h2 className="section-title">{t("about.title")}<br /><span className="accent-text">{t("about.title_1")}</span></h2>
-              <p>Là một <strong>Full Stack Developer</strong> với hơn 4 năm kinh nghiệm, tôi đam mê tạo ra những sản
-                phẩm web chất lượng cao — từ giao diện đẹp mắt đến hệ thống backend ổn định, có khả năng mở rộng.
-              </p>
-              <p>Tôi làm việc thoải mái ở cả frontend lẫn backend, thành thạo <strong>React / Next.js</strong>,
-                <strong>Node.js / Express</strong>, <strong>PHP / Laravel</strong>, và cơ sở dữ liệu SQL & NoSQL.
-              </p>
-              <p>
-                Bên cạnh đó, tôi có kinh nghiệm về <strong>DevOps</strong>,
-                bao gồm triển khai ứng dụng trên Linux Server và VPS,
-                sử dụng <strong>Docker</strong>, xây dựng quy trình
-                <strong> CI/CD</strong>, quản lý hệ thống và tối ưu môi trường vận hành
-                nhằm đảm bảo hiệu năng, tính ổn định và khả năng mở rộng của sản phẩm.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t("about.tag") }} />
+              <p dangerouslySetInnerHTML={{ __html: t("about.tag_1") }} />
+              <p dangerouslySetInnerHTML={{ __html: t("about.tag_2") }} />
+
               <p>Khi không code, tôi thích tìm hiểu công nghệ mới, đóng góp open-source và uống cà phê.</p>
               <div style={{ display: 'flex', gap: '1.5rem', marginTop: '2rem' }}>
                 <div>
