@@ -64,6 +64,8 @@ export default function Skills() {
                         <span className="tag">AWS</span>
                         <span className="tag">PM2</span>
                         <span className="tag">NGINX</span>
+                        <span className="tag"> SERVER Linux</span>
+                        <span className="tag">SERVER Windows</span>
                     </div>
                 </div>
             </div>

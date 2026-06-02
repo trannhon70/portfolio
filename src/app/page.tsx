@@ -163,15 +163,20 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="project-body">
-                <span className="project-num">01 / E-Commerce Platform</span>
-                <div className="project-title">ShopVN — Nền tảng thương mại điện tử</div>
-                <div className="project-desc">Multi-vendor marketplace với real-time inventory, thanh toán đa cổng,
-                  dashboard analytics, và PWA mobile experience.</div>
+                <span className="project-num">01 / Hệ thống Cho Thuê VPS</span>
+                <div className="project-title">Nền tảng Quản lý & Cho thuê VPS</div>
+                <div className="project-desc">
+                  Hệ thống cho thuê VPS full-stack cho phép quản lý khách hàng,
+                  đơn hàng, thanh toán trực tuyến và theo dõi trạng thái dịch vụ
+                  theo thời gian thực.
+                </div>
+                <div className="project-desc">Dashboard quản trị với data visualization theo real-time, hỗ trợ
+                  multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.</div>
                 <div className="project-stack">
-                  <span className="tag">Next.js</span>
-                  <span className="tag">Node.js</span>
+                  <span className="tag">ReactJS</span>
+                  <span className="tag">NodeJS</span>
                   <span className="tag">MongoDB</span>
-                  <span className="tag">Redis</span>
+                  <span className="tag">Socket.IO</span>
                 </div>
               </div>
             </div>
@@ -179,21 +184,25 @@ export default function HomePage() {
               <div className="project-thumb">
                 <div className="project-thumb-accent" />
                 <div className="project-thumb-inner">
-                  lorem ipsum dolor sit amet,<br />
-                  consectetur adipiscing elit,<br />
-                  sed do eiusmod tempor incididunt
+                  SELECT * FROM orders<br />
+                  WHERE status = 'delivered'<br />
+                  ORDER BY created_at DESC
                 </div>
               </div>
               <div className="project-body">
-                <span className="project-num">02 / SaaS Application</span>
-                <div className="project-title">TaskFlow — Quản lý dự án SaaS</div>
-                <div className="project-desc">Ứng dụng SaaS quản lý công việc nhóm với real-time collaboration, Kanban
-                  board, Gantt chart và báo cáo tiến độ chi tiết.</div>
+                <span className="project-num">02 / Hệ thống Chatbot & AI</span>
+                <div className="project-title">Nền tảng Hỗ trợ Khách hàng bằng AI</div>
+                <div className="project-desc">
+                  Chatbot ứng dụng AI giúp tự động hóa quy trình chăm sóc khách hàng,
+                  tích hợp  giao tiếp thời gian thực thông qua WebSocket.
+                </div>
+                <div className="project-desc">Dashboard quản trị với data visualization theo real-time, hỗ trợ
+                  multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.</div>
                 <div className="project-stack">
-                  <span className="tag">React</span>
-                  <span className="tag">Laravel</span>
-                  <span className="tag">PostgreSQL</span>
-                  <span className="tag">Socket.io</span>
+                  <span className="tag">ReactJS</span>
+                  <span className="tag">NestJS</span>
+                  <span className="tag">Socket.IO</span>
+                  <span className="tag">AI/NLP</span>
                 </div>
               </div>
             </div>
@@ -207,15 +216,19 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="project-body">
-                <span className="project-num">03 / Dashboard</span>
-                <div className="project-title">AdminPro — Dashboard analytics</div>
+                <span className="project-num">03 / Hệ thống Quản lý Phòng khám</span>
+                <div className="project-title">Clinic Management System</div>
+                <div className="project-desc">
+                  Nền tảng quản lý phòng khám đa vai trò, hỗ trợ hồ sơ bệnh nhân,
+                  đặt lịch khám, thanh toán và thông báo thời gian thực.
+                </div>
                 <div className="project-desc">Dashboard quản trị với data visualization theo real-time, hỗ trợ
                   multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.</div>
                 <div className="project-stack">
-                  <span className="tag">React</span>
-                  <span className="tag">Express</span>
-                  <span className="tag">MySQL</span>
-                  <span className="tag">Chart.js</span>
+                  <span className="tag">ReactJS</span>
+                  <span className="tag">NestJS</span>
+                  <span className="tag">SQL</span>
+                  <span className="tag">WebSocket</span>
                 </div>
               </div>
             </div>
@@ -230,7 +243,7 @@ export default function HomePage() {
             <a href="mailto:kevintran351996@gmail.com" className="contact-email">kevintran351996@gmail.com</a>
             <br />
             <div className="social-links">
-              <a href="#" className="social-link">GitHub</a>
+              <a href="https://github.com/trannhon70?tab=repositories" className="social-link">GitHub</a>
               <a href="#" className="social-link">LinkedIn</a>
               <a href="#" className="social-link">Facebook</a>
             </div>
