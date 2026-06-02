@@ -120,17 +120,17 @@ export default function HomePage() {
               <p>Tôi làm việc thoải mái ở cả frontend lẫn backend, thành thạo <strong>React / Next.js</strong>,
                 <strong>Node.js / Express</strong>, <strong>PHP / Laravel</strong>, và cơ sở dữ liệu SQL &amp; NoSQL.
               </p>
-              <p>Khi không code, tôi thích tìm hiểu công nghệ mới, đóng góp open-source và uống cà phê quá nhiều.</p>
+              <p>Khi không code, tôi thích tìm hiểu công nghệ mới, đóng góp open-source và uống cà phê.</p>
               <div style={{ display: 'flex', gap: '1.5rem', marginTop: '2rem' }}>
                 <div>
                   <div style={{ fontFamily: '"DM Mono",monospace', fontSize: '0.65rem', color: 'var(--muted)', letterSpacing: '0.1em', marginBottom: 4 }}>
-                    LOCATION</div>
-                  <div style={{ fontSize: '0.9rem' }}>Ho Chi Minh City, VN</div>
+                    ĐỊA ĐIỂM</div>
+                  <div style={{ fontSize: '0.9rem' }}>TP. Hồ Chí Minh, Việt Nam</div>
                 </div>
                 <div>
                   <div style={{ fontFamily: '"DM Mono",monospace', fontSize: '0.65rem', color: 'var(--muted)', letterSpacing: '0.1em', marginBottom: 4 }}>
-                    STATUS</div>
-                  <div style={{ fontSize: '0.9rem', color: 'var(--accent)' }}>● Open to work</div>
+                    TRẠNG THÁI</div>
+                  <div style={{ fontSize: '0.9rem', color: 'var(--accent)' }}>●  Đang tìm kiếm cơ hội mới</div>
                 </div>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function HomePage() {
 
             <h2 className="section-title">Hãy cùng xây dựng<br />điều gì đó <span className="accent-text">tuyệt vời</span></h2>
             <p className="contact-sub">Tôi đang tìm kiếm cơ hội mới. Inbox của tôi luôn mở!</p>
-            <a href="mailto:hello@dev.vn" className="contact-email">hello@dev.vn</a>
+            <a href="mailto:kevintran351996@gmail.com" className="contact-email">kevintran351996@gmail.com</a>
             <br />
             <div className="social-links">
               <a href="#" className="social-link">GitHub</a>
@@ -237,7 +237,7 @@ export default function HomePage() {
           </div>
         </section>
         <footer>
-          <span>© 2025 · Built with ❤️ in Ho Chi Minh City</span>
+          <span>© 2026 · Built with ❤️ in Ho Chi Minh City</span>
           <span style={{ fontFamily: '"DM Mono",monospace' }}>React · Node.js · PHP</span>
         </footer>
       </div>

@@ -3,13 +3,13 @@ export default function Navbar() {
 
     return (
         <nav>
-            <div className="nav-logo">DEV.vn</div>
+            <div className="nav-logo">TRẦN XUÂN NHƠN</div>
             <ul className="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Về tôi</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#experience">Kinh nghiệm làm việc</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
             </ul>
         </nav>
     );

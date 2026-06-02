@@ -4,7 +4,7 @@ export default function Skills() {
     return (
         <section className="skills-section" id="skills">
             <div className="reveal">
-                <h2 className="section-title">Tech Stack</h2>
+                <h2 className="section-title">Công nghệ sử dụng</h2>
             </div>
             <div className="skills-grid">
                 <div className="skill-card reveal" style={{ transitionDelay: '0.1s' }}>
@@ -19,6 +19,7 @@ export default function Skills() {
                         <span className="tag">Redux</span>
                         <span className="tag">Tailwind</span>
                         <span className="tag">Vite</span>
+                        <span className="tag">...</span>
                     </div>
                 </div>
                 <div className="skill-card reveal" style={{ transitionDelay: '0.2s' }}>
@@ -28,23 +29,26 @@ export default function Skills() {
                     <div className="skill-tags">
                         <span className="tag">Node.js</span>
                         <span className="tag">Express</span>
-                        <span className="tag">Fastify</span>
+                        <span className="tag">Kafka</span>
                         <span className="tag">GraphQL</span>
                         <span className="tag">Socket.io</span>
                         <span className="tag">JWT</span>
+                        <span className="tag">...</span>
                     </div>
                 </div>
                 <div className="skill-card reveal" style={{ transitionDelay: '0.3s' }}>
                     <span className="skill-icon">🐘</span>
-                    <div className="skill-name">Backend · PHP</div>
-                    <div className="skill-desc">Phát triển ứng dụng web enterprise với Laravel và hệ sinh thái PHP hiện đại.
+                    <div className="skill-name">Tools</div>
+                    <div className="skill-desc">
+                        Hỗ trợ phát triển và tối ưu quy trình làm việc với các công cụ quản lý API, thiết kế UI và version control.
                     </div>
                     <div className="skill-tags">
-                        <span className="tag">PHP 8</span>
-                        <span className="tag">Laravel</span>
-                        <span className="tag">Livewire</span>
-                        <span className="tag">Composer</span>
-                        <span className="tag">Eloquent</span>
+                        <span className="tag">Postman</span>
+                        <span className="tag">Figma</span>
+                        <span className="tag">RESTful API</span>
+                        <span className="tag">MVC/MVP</span>
+                        <span className="tag">GitHub</span>
+                        <span className="tag">Gitlab</span>
                     </div>
                 </div>
                 <div className="skill-card reveal" style={{ transitionDelay: '0.4s' }}>
@@ -58,6 +62,8 @@ export default function Skills() {
                         <span className="tag">Redis</span>
                         <span className="tag">Docker</span>
                         <span className="tag">AWS</span>
+                        <span className="tag">PM2</span>
+                        <span className="tag">NGINX</span>
                     </div>
                 </div>
             </div>

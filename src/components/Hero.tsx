@@ -7,15 +7,14 @@ export default function Hero() {
             <div className="hero-glow" />
             <div className="hero-glow2" />
             <div className="hero-content">
-                <div className="hero-tag">Available for opportunities · Ho Chi Minh City</div>
+                <div className="hero-tag">Sẵn sàng cho các cơ hội việc làm · TP. Hồ Chí Minh</div>
                 <h1>
                     <span className="h1-line">Full Stack</span>
                     <span className="h1-line">Developer<span className="accent-text">.</span></span>
-                    <span className="h1-line" style={{ color: 'var(--muted)', fontSize: '0.55em', fontWeight: 400, fontFamily: '"Inter", sans-serif', letterSpacing: '0.01em' }}>4+
-                        years building for the web</span>
+                    <span className="h1-line" style={{ color: 'var(--muted)', fontSize: '0.55em', fontWeight: 400, fontFamily: '"Inter", sans-serif', letterSpacing: '0.01em' }}>4+ năm xây dựng cho web app</span>
                 </h1>
                 <p className="hero-sub">
-                    Chuyên xây dựng ứng dụng web hiệu suất cao với React, Node.js &amp; PHP.
+                    Chuyên xây dựng ứng dụng web hiệu suất cao với React, Next.js, Node.js, NestJS &amp; PHP.
                     Từ giao diện người dùng mượt mà đến hệ thống backend mạnh mẽ.
                 </p>
                 <div className="hero-cta">
