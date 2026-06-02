@@ -4,7 +4,6 @@ export default function Experience() {
         <section id="experience" style={{ position: 'relative' }}>
             <div style={{ position: 'absolute', left: '4rem', top: '8rem', bottom: '2rem', width: 1, background: 'var(--border)' }} />
             <div className="reveal" style={{ paddingLeft: 0 }}>
-                <span className="section-tag">// 03 · Experience</span>
                 <h2 className="section-title">Kinh nghiệm làm việc</h2>
             </div>
             <div className="experience-list">

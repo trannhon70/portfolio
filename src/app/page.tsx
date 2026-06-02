@@ -179,9 +179,9 @@ export default function HomePage() {
               <div className="project-thumb">
                 <div className="project-thumb-accent" />
                 <div className="project-thumb-inner">
-                  Route::get('/api/v2', fn() =&gt;<br />
-                  response()-&gt;json([<br />
-                  'status' =&gt; 'live'
+                  lorem ipsum dolor sit amet,<br />
+                  consectetur adipiscing elit,<br />
+                  sed do eiusmod tempor incididunt
                 </div>
               </div>
               <div className="project-body">
