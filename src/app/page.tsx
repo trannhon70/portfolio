@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
+const email = "kevintran351996@gmail.com";
 
 export default function HomePage() {
   const cursorRef = useRef<HTMLDivElement>(null);
@@ -100,6 +101,11 @@ export default function HomePage() {
 
     return () => observer.disconnect();
   }, []);
+
+  const handleCopyEmail = async () => {
+    await navigator.clipboard.writeText(email);
+    alert("Đã sao chép email!");
+  };
   return (
     <>
       <div>
@@ -240,7 +246,7 @@ export default function HomePage() {
 
             <h2 className="section-title">Hãy cùng xây dựng<br />điều gì đó <span className="accent-text">tuyệt vời</span></h2>
             <p className="contact-sub">Tôi đang tìm kiếm cơ hội mới. Inbox của tôi luôn mở!</p>
-            <a href="mailto:kevintran351996@gmail.com" className="contact-email">kevintran351996@gmail.com</a>
+            <a onClick={handleCopyEmail} href="mailto:kevintran351996@gmail.com" className="contact-email">kevintran351996@gmail.com</a>
             <br />
             <div className="social-links">
               <a href="https://github.com/trannhon70?tab=repositories" className="social-link">GitHub</a>
