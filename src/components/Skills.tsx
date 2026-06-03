@@ -1,16 +1,16 @@
 
 
-export default function Skills() {
+export default function Skills({ t }: { t: any }) {
     return (
         <section className="skills-section" id="skills">
             <div className="reveal">
-                <h2 className="section-title">Công nghệ sử dụng</h2>
+                <h2 className="section-title">{t("skills.title")}</h2>
             </div>
             <div className="skills-grid">
                 <div className="skill-card reveal" style={{ transitionDelay: '0.1s' }}>
                     <span className="skill-icon">⚛️</span>
                     <div className="skill-name">Frontend</div>
-                    <div className="skill-desc">Xây dựng UI hiện đại, responsive và tối ưu performance với React ecosystem.
+                    <div className="skill-desc">{t("skills.tag")}
                     </div>
                     <div className="skill-tags">
                         <span className="tag">React</span>
@@ -25,7 +25,7 @@ export default function Skills() {
                 <div className="skill-card reveal" style={{ transitionDelay: '0.2s' }}>
                     <span className="skill-icon">🟢</span>
                     <div className="skill-name">Backend · Node.js</div>
-                    <div className="skill-desc">REST API và microservices hiệu suất cao với Node.js, Express, và Fastify.</div>
+                    <div className="skill-desc">{t("skills.tag_1")}</div>
                     <div className="skill-tags">
                         <span className="tag">Node.js</span>
                         <span className="tag">Express</span>
@@ -40,7 +40,7 @@ export default function Skills() {
                     <span className="skill-icon">🐘</span>
                     <div className="skill-name">Tools</div>
                     <div className="skill-desc">
-                        Hỗ trợ phát triển và tối ưu quy trình làm việc với các công cụ quản lý API, thiết kế UI và version control.
+                        {t("skills.tag_2")}
                     </div>
                     <div className="skill-tags">
                         <span className="tag">Postman</span>
@@ -53,8 +53,8 @@ export default function Skills() {
                 </div>
                 <div className="skill-card reveal" style={{ transitionDelay: '0.4s' }}>
                     <span className="skill-icon">🗄️</span>
-                    <div className="skill-name">Database &amp; DevOps</div>
-                    <div className="skill-desc">Thiết kế cơ sở dữ liệu và triển khai hệ thống với cloud infrastructure.</div>
+                    <div className="skill-name">Database & DevOps</div>
+                    <div className="skill-desc">{t("skills.tag_3")}</div>
                     <div className="skill-tags">
                         <span className="tag">MySQL</span>
                         <span className="tag">PostgreSQL</span>

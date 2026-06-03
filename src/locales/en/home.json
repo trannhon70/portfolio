@@ -22,6 +22,18 @@
         "title_1": "Web Applications",
         "tag": "As a <strong>Full Stack Developer</strong> with 4+ years of experience, I specialize in building modern web applications that combine exceptional user experiences with reliable, scalable backend architectures.",
         "tag_1": "I work confidently across both frontend and backend development, with hands-on experience in <strong>React / Next.js</strong>, <strong>Node.js / Express</strong>, <strong>PHP / Laravel</strong>, as well as SQL and NoSQL databases.",
-        "tag_2": "  In addition, I have experience in <strong>DevOps</strong>, including deploying applications on Linux servers and VPS environments, working with <strong>Docker</strong>, building <strong>CI/CD</strong> pipelines, managing infrastructure, and optimizing production environments to ensure performance, reliability, and scalability."
+        "tag_2": "  In addition, I have experience in <strong>DevOps</strong>, including deploying applications on Linux servers and VPS environments, working with <strong>Docker</strong>, building <strong>CI/CD</strong> pipelines, managing infrastructure, and optimizing production environments to ensure performance, reliability, and scalability.",
+        "tag_3": "When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and drinking coffee.",
+        "location": "LOCATION",
+        "status": "STATUS",
+        "location_value": "Ho Chi Minh City, Vietnam",
+        "status_value": "Open to new opportunities"
+    },
+    "skills": {
+        "title": "Technologies I Use",
+        "tag": "Building modern, responsive, and performance-optimized UIs with the React ecosystem.",
+        "tag_1": "High-performance REST APIs and microservices with Node.js, Express, and Fastify.",
+        "tag_2": "Supporting development and optimizing workflows with API management, UI design, and version control tools.",
+        "tag_3": "Database design and system deployment with cloud infrastructure."
     }
 }

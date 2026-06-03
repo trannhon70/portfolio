@@ -128,17 +128,17 @@ export default function HomePage() {
               <p dangerouslySetInnerHTML={{ __html: t("about.tag_1") }} />
               <p dangerouslySetInnerHTML={{ __html: t("about.tag_2") }} />
 
-              <p>Khi không code, tôi thích tìm hiểu công nghệ mới, đóng góp open-source và uống cà phê.</p>
+              <p>{t("about.tag_3")}</p>
               <div style={{ display: 'flex', gap: '1.5rem', marginTop: '2rem' }}>
                 <div>
                   <div style={{ fontFamily: '"DM Mono",monospace', fontSize: '0.65rem', color: 'var(--muted)', letterSpacing: '0.1em', marginBottom: 4 }}>
-                    ĐỊA ĐIỂM</div>
-                  <div style={{ fontSize: '0.9rem' }}>TP. Hồ Chí Minh, Việt Nam</div>
+                    {t("about.location")}</div>
+                  <div style={{ fontSize: '0.9rem' }}>{t("about.location_value")}</div>
                 </div>
                 <div>
                   <div style={{ fontFamily: '"DM Mono",monospace', fontSize: '0.65rem', color: 'var(--muted)', letterSpacing: '0.1em', marginBottom: 4 }}>
-                    TRẠNG THÁI</div>
-                  <div style={{ fontSize: '0.9rem', color: 'var(--accent)' }}>●  Đang tìm kiếm cơ hội mới</div>
+                    {t("about.status")}</div>
+                  <div style={{ fontSize: '0.9rem', color: 'var(--accent)' }}>●  {t("about.status_value")}</div>
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function HomePage() {
           </div>
         </section>
         {/* SKILLS */}
-        <Skills />
+        <Skills t={t} />
         {/* EXPERIENCE */}
         <Experience />
         {/* PROJECTS */}
