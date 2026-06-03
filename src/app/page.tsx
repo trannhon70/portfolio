@@ -158,7 +158,7 @@ export default function HomePage() {
         <section id="projects" style={{ background: 'var(--surface)' }}>
           <div className="reveal">
 
-            <h2 className="section-title">Dự án nổi bật</h2>
+            <h2 className="section-title">{t("projects.title")}</h2>
           </div>
           <div className="projects-grid">
             <div className="project-card p1 reveal" style={{ transitionDelay: '0.1s' }}>
@@ -171,15 +171,12 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="project-body">
-                <span className="project-num">01 / Hệ thống Cho Thuê VPS</span>
-                <div className="project-title">Nền tảng Quản lý & Cho thuê VPS</div>
+                <span className="project-num">{t("projects.tag")}</span>
+                <div className="project-title">{t("projects.tag_1")}</div>
                 <div className="project-desc">
-                  Hệ thống cho thuê VPS full-stack cho phép quản lý khách hàng,
-                  đơn hàng, thanh toán trực tuyến và theo dõi trạng thái dịch vụ
-                  theo thời gian thực.
+                  {t("projects.tag_2")}
                 </div>
-                <div className="project-desc">Dashboard quản trị với data visualization theo real-time, hỗ trợ
-                  multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.</div>
+                <div className="project-desc">{t("projects.tag_3")}</div>
                 <div className="project-stack">
                   <span className="tag">ReactJS</span>
                   <span className="tag">NodeJS</span>
@@ -198,14 +195,12 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="project-body">
-                <span className="project-num">02 / Hệ thống Chatbot & AI</span>
-                <div className="project-title">Nền tảng Hỗ trợ Khách hàng bằng AI</div>
+                <span className="project-num">{t("projects.02")}</span>
+                <div className="project-title">{t("projects.tag_4")}</div>
                 <div className="project-desc">
-                  Chatbot ứng dụng AI giúp tự động hóa quy trình chăm sóc khách hàng,
-                  tích hợp  giao tiếp thời gian thực thông qua WebSocket.
+                  {t("projects.tag_5")}
                 </div>
-                <div className="project-desc">Dashboard quản trị với data visualization theo real-time, hỗ trợ
-                  multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.</div>
+                <div className="project-desc">{t("projects.tag_3")}</div>
                 <div className="project-stack">
                   <span className="tag">ReactJS</span>
                   <span className="tag">NestJS</span>
@@ -224,14 +219,12 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="project-body">
-                <span className="project-num">03 / Hệ thống Quản lý Phòng khám</span>
-                <div className="project-title">Clinic Management System</div>
+                <span className="project-num">{t("projects.03")}</span>
+                <div className="project-title">{t("projects.tag_6")}</div>
                 <div className="project-desc">
-                  Nền tảng quản lý phòng khám đa vai trò, hỗ trợ hồ sơ bệnh nhân,
-                  đặt lịch khám, thanh toán và thông báo thời gian thực.
+                  {t("projects.tag_7")}
                 </div>
-                <div className="project-desc">Dashboard quản trị với data visualization theo real-time, hỗ trợ
-                  multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.</div>
+                <div className="project-desc">{t("projects.tag_3")}</div>
                 <div className="project-stack">
                   <span className="tag">ReactJS</span>
                   <span className="tag">NestJS</span>
@@ -246,8 +239,8 @@ export default function HomePage() {
         <section className="contact-section" id="contact">
           <div className="reveal">
 
-            <h2 className="section-title">Hãy cùng xây dựng<br />điều gì đó <span className="accent-text">tuyệt vời</span></h2>
-            <p className="contact-sub">Tôi đang tìm kiếm cơ hội mới. Inbox của tôi luôn mở!</p>
+            <h2 className="section-title">{t("contact.tag")}<br />{t("contact.tag_1")} <span className="accent-text">{t("contact.tag_2")}</span></h2>
+            <p className="contact-sub">{t("contact.tag_3")}</p>
             <a onClick={handleCopyEmail} href="mailto:kevintran351996@gmail.com" className="contact-email">kevintran351996@gmail.com</a>
             <br />
             <div className="social-links">

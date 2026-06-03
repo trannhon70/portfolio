@@ -60,5 +60,24 @@
         "tag_14": "Implemented document upload and preview features with client-side validation.",
         "tag_15": "Integrated real-time notifications for staff and managers through authentication and internal logging systems.",
         "tag_16": "Collaborated with the backend development team to integrate APIs; ensuring a smooth user experience across different user roles (administrators, staff, managers)."
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "tag": "01 / VPS Rental System",
+        "tag_1": "VPS Management & Rental Platform",
+        "tag_2": "Full-stack VPS rental platform allowing customer management, order processing, online payments, and real-time service status tracking.",
+        "tag_3": "Admin dashboard with real-time data visualization, multi-tenant support, detailed permissions, and multi-format report exports.",
+        "02": "02 / Chatbot & AI System",
+        "tag_4": "AI-Powered Customer Support Platform",
+        "tag_5": "AI-powered chatbot to automate customer service processes, integrated with real-time communication via WebSocket.",
+        "03": "03 / Clinic Management System",
+        "tag_6": "Clinic Management System",
+        "tag_7": "Multi-role clinic management platform supporting patient records, appointment scheduling, billing, and real-time notifications."
+    },
+    "contact": {
+        "tag": "Let's build something amazing together",
+        "tag_1": "something amazing",
+        "tag_2": "great",
+        "tag_3": "I'm always open to discussing new opportunities. If you have an interesting project or just want to chat, feel free to reach out!"
     }
 }

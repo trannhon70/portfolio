@@ -60,5 +60,24 @@
         "tag_14": "Triển khai tính năng tải lên và xem trước tài liệu với xác thực phía máy khách.",
         "tag_15": "Tích hợp thông báo thời gian thực cho các nhân viên và quản lý tín dụng thông qua hệ thống xác thực và ghi nhật ký nội bộ.",
         "tag_16": "Hợp tác với nhóm phát triển backend về tích hợp API; đảm bảo trải nghiệm người dùng mượt mà trên các vai trò người dùng khác nhau (quản trị viên, nhân viên, quản lý)."
+    },
+    "projects": {
+        "title": "Dự án nổi bật",
+        "tag": "01 / Hệ thống Cho Thuê VPS",
+        "tag_1": "Nền tảng Quản lý & Cho thuê VPS",
+        "tag_2": "Hệ thống cho thuê VPS full-stack cho phép quản lý khách hàng, đơn hàng, thanh toán trực tuyến và theo dõi trạng thái dịch vụ theo thời gian thực.",
+        "tag_3": "Dashboard quản trị với data visualization theo real-time, hỗ trợ multi-tenant, phân quyền chi tiết và export báo cáo đa định dạng.",
+        "02": "02 / Hệ thống Chatbot & AI",
+        "tag_4": "Nền tảng Hỗ trợ Khách hàng bằng AI",
+        "tag_5": "Chatbot ứng dụng AI giúp tự động hóa quy trình chăm sóc khách hàng, tích hợp  giao tiếp thời gian thực thông qua WebSocket.",
+        "03": "03 / Hệ thống Quản lý Phòng khám",
+        "tag_6": "Hệ thống Quản lý Phòng khám",
+        "tag_7": "Nền tảng quản lý phòng khám đa vai trò, hỗ trợ hồ sơ bệnh nhân, đặt lịch khám, thanh toán và thông báo thời gian thực."
+    },
+    "contact": {
+        "tag": "Hãy cùng xây dựng",
+        "tag_1": "điều gì đó",
+        "tag_2": "tuyệt vời",
+        "tag_3": "Tôi đang tìm kiếm cơ hội mới. Inbox của tôi luôn mở!"
     }
 }
