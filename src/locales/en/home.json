@@ -35,5 +35,30 @@
         "tag_1": "High-performance REST APIs and microservices with Node.js, Express, and Fastify.",
         "tag_2": "Supporting development and optimizing workflows with API management, UI design, and version control tools.",
         "tag_3": "Database design and system deployment with cloud infrastructure."
+    },
+    "experience": {
+        "title": "Work Experience",
+        "company": "VPS Rental System",
+        "tag": "Built a full-stack VPS rental system using ReactJS (Frontend) and NodeJS (Backend), supporting the entire customer management process from registration to service usage.",
+        "tag_1": "Integrated payment gateways and real-time order tracking system, significantly reducing manual support requests.",
+        "tag_2": "Proposed and implemented improvements in deployment and system operation processes, enhancing the stability of release versions.",
+        "company_1": "Chatbot & AI System",
+        "tag_3": "Designed architecture and developed AI-powered customer support chatbot using ReactJS (Frontend) and NestJS (Backend).",
+        "tag_4": "Integrated natural language processing (NLP) technology and implemented real-time two-way communication via WebSocket/Socket.IO.",
+        "tag_5": "Automated customer support processes, reducing the number of repetitive questions that support teams have to handle.",
+        "company_2": "Human Resource Management System (HRM)",
+        "tag_6": "Designed and developed a full-stack human resource management (HRM) system from scratch using ReactJS, NestJS, and SQL database.",
+        "tag_7": "Built modules for managing employee profiles, payroll, attendance, and performance evaluation for over 500 personnel.",
+        "tag_8": "Containerized the entire application with Docker and implemented CI/CD pipelines, reducing system deployment time by approximately 60%.",
+        "company_3": "Clinic Management System",
+        "tag_9": "Built a multi-role clinic management platform, including patient record management, appointment scheduling, and medical billing.",
+        "tag_10": "Implemented role-based access control for doctors, nurses, and administrative staff.",
+        "tag_11": "Optimized SQL queries and integrated WebSocket for real-time notification system, improving system response times.",
+        "company_4": "MINERVA JOINT STOCK COMPANY",
+        "tag_12": "Built and maintained web applications for the credit department management system of a bank using ReactJS and Material UI.",
+        "tag_13": "Developed a credit application status tracking system with advanced filtering, search, and multi-step approval processes with audit logging.",
+        "tag_14": "Implemented document upload and preview features with client-side validation.",
+        "tag_15": "Integrated real-time notifications for staff and managers through authentication and internal logging systems.",
+        "tag_16": "Collaborated with the backend development team to integrate APIs; ensuring a smooth user experience across different user roles (administrators, staff, managers)."
     }
 }

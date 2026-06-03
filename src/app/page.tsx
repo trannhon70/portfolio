@@ -153,7 +153,7 @@ export default function HomePage() {
         {/* SKILLS */}
         <Skills t={t} />
         {/* EXPERIENCE */}
-        <Experience />
+        <Experience t={t} />
         {/* PROJECTS */}
         <section id="projects" style={{ background: 'var(--surface)' }}>
           <div className="reveal">

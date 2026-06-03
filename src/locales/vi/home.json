@@ -35,5 +35,30 @@
         "tag_1": "REST API và microservices hiệu suất cao với Node.js, Express, và Fastify.",
         "tag_2": "Hỗ trợ phát triển và tối ưu quy trình làm việc với các công cụ quản lý API, thiết kế UI và version control.",
         "tag_3": "Thiết kế cơ sở dữ liệu và triển khai hệ thống với cloud infrastructure."
+    },
+    "experience": {
+        "title": "Kinh nghiệm làm việc",
+        "company": "Hệ thống Cho Thuê VPS",
+        "tag": "Xây dựng hệ thống cho thuê VPS full-stack sử dụng ReactJS (Frontend) và NodeJS (Backend), hỗ trợ toàn bộ quy trình quản lý khách hàng từ đăng ký đến sử dụng dịch vụ.",
+        "tag_1": "Tích hợp cổng thanh toán và hệ thống theo dõi đơn hàng theo thời gian thực, giúp giảm đáng kể các yêu cầu hỗ trợ thủ công.",
+        "tag_2": "Đề xuất và triển khai các cải tiến trong quy trình triển khai và vận hành hệ thống, nâng cao độ ổn định của các phiên bản phát hành.",
+        "company_1": "Hệ thống Chatbot & AI",
+        "tag_3": "Thiết kế kiến trúc và phát triển chatbot hỗ trợ khách hàng ứng dụng AI bằng ReactJS (Frontend) và NestJS (Backend).",
+        "tag_4": "Tích hợp công nghệ xử lý ngôn ngữ tự nhiên (NLP) và triển khai giao tiếp hai chiều theo thời gian thực thông qua WebSocket/Socket.IO.",
+        "tag_5": "Tự động hóa quy trình hỗ trợ khách hàng, giúp giảm số lượng câu hỏi lặp lại mà đội ngũ hỗ trợ phải xử lý.",
+        "company_2": "Hệ Thống Quản Lý Nhân Sự (HRM)",
+        "tag_6": "Thiết kế và phát triển từ đầu hệ thống quản lý nhân sự (HRM) full-stack sử dụng ReactJS, NestJS và cơ sở dữ liệu SQL.",
+        "tag_7": "Xây dựng các phân hệ quản lý hồ sơ nhân viên, tính lương, chấm công và đánh giá hiệu suất cho hơn 500 nhân sự.",
+        "tag_8": "Đóng gói toàn bộ ứng dụng bằng Docker và triển khai quy trình CI/CD, giúp giảm khoảng 60% thời gian triển khai hệ thống.",
+        "company_3": "Hệ thống quản lý phòng khám",
+        "tag_9": "Xây dựng nền tảng quản lý phòng khám đa vai trò, bao gồm quản lý hồ sơ bệnh nhân, đặt lịch khám và thanh toán viện phí.",
+        "tag_10": "Triển khai cơ chế phân quyền theo vai trò cho bác sĩ, y tá và nhân viên quản trị.",
+        "tag_11": "Tối ưu hóa truy vấn SQL và tích hợp WebSocket cho hệ thống thông báo thời gian thực, cải thiện tốc độ phản hồi của hệ thống.",
+        "company_4": "CTY CỔ PHẦN MINERVA",
+        "tag_12": "Xây dựng và bảo trì các ứng dụng web cho hệ thống quản lý bộ phận tín dụng của ngân hàng bằng ReactJS và Material UI.",
+        "tag_13": "Phát triển hệ thống theo dõi trạng thái hồ sơ tín dụng với tính năng lọc nâng cao, tìm kiếm và quy trình phê duyệt nhiều bước kèm nhật ký kiểm toán.",
+        "tag_14": "Triển khai tính năng tải lên và xem trước tài liệu với xác thực phía máy khách.",
+        "tag_15": "Tích hợp thông báo thời gian thực cho các nhân viên và quản lý tín dụng thông qua hệ thống xác thực và ghi nhật ký nội bộ.",
+        "tag_16": "Hợp tác với nhóm phát triển backend về tích hợp API; đảm bảo trải nghiệm người dùng mượt mà trên các vai trò người dùng khác nhau (quản trị viên, nhân viên, quản lý)."
     }
 }
